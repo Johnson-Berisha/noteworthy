@@ -1,4 +1,4 @@
-
+import ThemeToggle from "./components/theme";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <h1>note--</h1>
       <p>testin some stuff</p>
       <span>is anything even working?</span>
+      <ThemeToggle />
     </div>
   );
 }
