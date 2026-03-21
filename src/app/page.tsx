@@ -7,6 +7,9 @@ export default function Home() {
       <p>testin some stuff</p>
       <span>is anything even working?</span>
       <ThemeToggle />
+      <div className="box">
+        <p>This is a simple box component.</p>
+      </div>
     </div>
   );
 }
