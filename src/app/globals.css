@@ -3,6 +3,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
     --box: #1a1a1a;
+    --border: #333333;
   }
 }
 
@@ -38,6 +39,7 @@ a {
 .box {
   background-color: var(--box);
   color: var(--foreground);
+  border: 1px solid var(--border);
   padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
