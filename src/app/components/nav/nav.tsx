@@ -1,14 +1,21 @@
 import Link from "next/link";
+import styles from "./nav.module.css";
 
 const Nav: React.FC = () => (
-    <nav>
-        <div className="logo">MySite</div>
-        <ul className="menu">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-        </ul>
-    </nav>
-)
+  <nav className={styles.nav}>
+    <div className={styles.logo}>MySite</div>
+    <ul className={styles.menu}>
+      <li>
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        <Link href="/about">About</Link>
+      </li>
+      <li>
+        <Link href="/contact">Contact</Link>
+      </li>
+    </ul>
+  </nav>
+);
 
 export default Nav;
